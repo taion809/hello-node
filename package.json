@@ -1,0 +1,11 @@
+{
+  "name": "webapp",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Node.js Hello World app",
+  "author": "Nicholas Johns <nicholas.a.johns5@gmail.com>",
+  "dependencies": {
+    "express": "~2.5",
+    "winston": "*"
+  }
+}
