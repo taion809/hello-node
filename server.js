@@ -4,7 +4,8 @@ var express = require('express');
 var PORT = 80;
 
 // App
-var app = express();
+var app = express.createServer(express.logger(), express.bodyParser());
+
 app.get('/', function (req, res) {
   res.send('Hello World\n');
 });
